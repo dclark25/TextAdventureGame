@@ -1,0 +1,15 @@
+Title:Room 1
+Desc:The room is empty
+Items:note,It's just a bunch of weird symbols,0|chest,It's filled with treasure an you are now filthy rich!!,1
+Exits:N,Room 2
+%%
+Title:Room 2
+Desc:It's dark, but you see a small light coming from the corner of the room.
+Items:coin,It's pure silver,0|flash light,Helps you see,0
+Exits:SW,Secret Room|S,Room 1
+%%
+Title:Secret Room
+Desc:There is a key on the ground!
+Items:key,Opens a chest somehwere...,1
+Exits:S,Room 2
+%%
