@@ -126,7 +126,7 @@
          return (Vector) m_vecItems.clone();
       }
       
-   	//finds the item in your inventory with matching name anItem_name
+   	//finds the item in your inventory with matching name anItem_name and returns it
        public Item findItem(String an_itemName)
       {
          String itemName;
@@ -143,6 +143,7 @@
          return itemTemp = new Item();
       }
       
+   	//Returns the interaction number of the matching item
        public Item findItem(int interactNum)
       {
          Item itemTemp;
@@ -157,7 +158,7 @@
          return itemTemp = new Item();
       }
    
-      
+      //Returns true if matching item is found
        public boolean itemMatch(String an_itemName)
       {
          String itemName;

@@ -79,6 +79,7 @@
             locations.addElement ( location );
       }
       
+   	//adds item to the list of items
        public void addItem( Item item )
       { 	
          if (! items.contains ( item ) )
@@ -101,6 +102,7 @@
          output = new WidthLimitedOutputStream(out, width) ;
       }
       
+   	//displays the items stored in the gameworld object
        public void showInventory()
       {
          output.println("Inventory");
@@ -128,6 +130,7 @@
          return itemTemp = new Item();
       }
       
+   	//Returns true if matching item is found
        public boolean itemMatch(String an_itemName)
       {
          String itemName;
@@ -144,7 +147,7 @@
          return false;
       }
    
-      
+      //Removes the given item from the list of items in the gameworld
        public void removeItem ( Item item )
       {
          if (items.contains (item))

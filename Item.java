@@ -1,9 +1,13 @@
     public class Item  implements java.io.Serializable
    {
-      private String name;
-      private String desc;
-      private int interactsWith;
-   
+      private String name; //name of item
+      private String desc; //description of the item
+      
+   	//Allows for item to interact 
+   	//with item of matching number
+      private int interactsWith; 
+         
+   	//Basic Constructors	
        public Item()
       {
          name = null;
@@ -24,6 +28,7 @@
          interactsWith = i;
       }
       
+   	//Get and set methods for item	
        public String getItemName()
       {
          return name;

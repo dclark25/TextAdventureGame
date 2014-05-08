@@ -13,6 +13,7 @@
       
    	//reads in info for all rooms from info.txt
    	//parses text to create needed objects, text must be in certain format
+   	//This method makes intitializing objects automated
        public static void readInfo(GameWorld game) throws IOException
       {
          int numLines = filesScanner.getFileSize("info.txt");
@@ -101,30 +102,6 @@
                game.addLocation(locTemp);
             }
          }
-         
-      	/*update exits of each location
-         for(int i=0; i<locList.size(); i++)//traverse through locations
-         {
-            locTemp = (Location) locList.elementAt(i);
-            for(int j=0; j<exitList.size(); j++) //traverse through exits
-            {
-               exitTemp = (Exit) exitList.elementAt(j);
-               for(int k=0; k<locTemp.getExits().size(); k++)//traverse through each exit of a location
-               {
-               	//getting the leadsTo_Title for the location at index k
-                  Vector exitList2 = locTemp.getExits();
-                  Exit exitTemp2 = (Exit) exitList2.elementAt(k);
-                  name = exitTemp2.getLeadsTo_Title();
-                  
-                  if(exitTemp.getLeadsTo_Title()==name)
-                  {
-                     locTemp.getExits().set(k, exitTemp);
-                  }
-               }
-            }
-            game.addLocation(locTemp);
-         }*/
-      
       }
       
        public static void main(String args[]) throws IOException
