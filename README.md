@@ -30,7 +30,7 @@ player interact with some basic AI.
 Running the Game:
 
 In order to run the program, you must be in the directory where TextAdventureGame.jar is located.
-Once you are in the proper directory, type in the following commandin the command line,
+Once you are in the proper directory, first run the file called CreateGameWorld.java which will create the gameworld.dat file. The type in the following command in the command line,
 
 java -jar TextAdventureGame.jar
 
