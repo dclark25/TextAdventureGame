@@ -27,8 +27,8 @@ so this has been a great refresher. I also plan on working on this project out o
 eventually include some GUI as well. I could probably even add a character class and have the 
 player interact with some basic AI.
 
-==============================================================================================
 Running the Game:
+==========================================================================================
 
 In order to run the program, you must be in the directory where TextAdventureGame.jar is located.
 Once you are in the proper directory, first run the file called CreateGameWorld.java which will create the gameworld.dat file. The type in the following command in the command line,
@@ -37,9 +37,8 @@ java -jar TextAdventureGame.jar
 
 and the game demo should start immediately!
 
-==============================================================================================
-
 Game play:
+==============================================================================================
 
 Just write and enter the name of the exit or item you wish to use.
 Each exit also has a shorthand name for its direction, so instead of 
