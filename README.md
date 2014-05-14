@@ -26,6 +26,7 @@ strengthen my Java skills, especially since it has been a while since I have use
 so this has been a great refresher. I also plan on working on this project out of class and 
 eventually include some GUI as well. I could probably even add a character class and have the 
 player interact with some basic AI.
+
 ==============================================================================================
 Running the Game:
 
